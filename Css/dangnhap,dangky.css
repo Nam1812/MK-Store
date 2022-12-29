@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap);
+.form__submit input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+
+/* .message__error {
+    font-size: 1.5rem;
+    color: rgb(210, 36, 36);
+    margin: -0.5rem 1.1rem;
+    text-align: left;
+    margin-left: 28.3rem;
+    font-weight: 537;
+} */
+
+
+/* .loading {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.479);
+}
+
+.loading img {
+    width: 5%;
+} */
+
+.form {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.field {
+    padding: 8px 12px;
+}
+
+.field input {
+    height: 45px;
+    width: 450px;
+    border-radius: 4px;
+}
+
+.or {
+    margin-bottom: 8px;
+}
+
+.field a {
+    padding: 10px 105px 10px 105px;
+    border-radius: 4px;
+    background-color: rgb(196, 35, 35);
+    color: white;
+    cursor: pointer;
+}
+
+a.if-have {
+    border: 2px solid black;
+}
+
+.if-have:hover {
+    background-color: white;
+    color: rgb(196, 35, 35);
+}
+
+.field.require input {
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 450px;
+    border-radius: 4px;
+    cursor: text;
+}
+
+input.primary.form__submit:hover {
+    color: rgb(196, 35, 35);
+    background-color: white;
+}
+
+.primary {
+    background-color: rgb(196, 35, 35);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}

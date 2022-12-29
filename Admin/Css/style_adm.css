@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+ul.admin_list {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+ul.admin_list li {
+    width: auto;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    float: left;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+}
+
+ul.admin_list li:hover {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+ul.admin_list li a {
+    text-decoration: none;
+}
+
+ul.admin_list li a:hover {}
+
+.clear {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+h1.title_admin {
+    text-align: center;
+    font-size: 45px;
+    color: darkblue;
+}
+
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logout {
+    margin-left: 1155px;
+    text-decoration: none;
+    width: 230px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+}
+
+.logout:hover {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+
+/* FOOTER */
+
+.app-container {
+    text-align: center;
+    align-items: center;
+    padding: 150px 0 50px 0;
+}
+
+.app-container p {
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.app-container input {
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+}
+
+.footer-top {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.footer-top img {
+    height: 50px;
+}
+
+.footer-top li {
+    padding: 0 12px;
+    position: relative;
+}
+
+.footer-top li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    background: #cccccc;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-top li:last-child::after {
+    display: none;
+}
+
+.footer-top li:last-child a {
+    margin-right: 12px;
+    color: #333;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-bottom {
+    padding: 7px;
+    text-align: center;
+    background-color: rgb(193, 184, 184);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}

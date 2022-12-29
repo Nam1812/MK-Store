@@ -1,0 +1,231 @@
+.cart {
+    padding: 100px 0;
+}
+
+.cart-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-top {
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+
+.cart-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cart-top-item i {
+    color: #dddddd;
+}
+
+.cart-top-cart {
+    border: 1px solid #0db7ea;
+}
+
+.cart-top-cart i {
+    color: #0db7ea;
+}
+
+.cart-content-left {
+    flex: 2;
+    padding-right: 12px;
+}
+
+.fa.fa-plus.fa-style {
+    font-size: 15px;
+    color: #333;
+}
+
+.fa.fa-minus.fa-style {
+    font-size: 15px;
+    color: #333;
+}
+
+.fa-solid.fa-trash.fa-style {
+    font-size: 15px;
+    color: #333;
+}
+
+.fa.fa-plus.fa-style:hover {
+    color: firebrick;
+}
+
+.fa.fa-minus.fa-style:hover {
+    color: firebrick;
+}
+
+.fa-solid.fa-trash.fa-style:hover {
+    color: red;
+}
+
+.fa-style {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.fa-style:hover {
+    color: red;
+}
+
+.cart-content-left table {
+    width: 100%;
+    text-align: center;
+}
+
+.cart-content-left table th {
+    padding-bottom: 30px;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-left table p {
+    font-size: 15px;
+    font-family: var(--main-text-font);
+    color: #333;
+}
+
+.cart-content-left table input {
+    width: 30px;
+}
+
+.cart-content-left table span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.cart-content-left table td {
+    padding: 20px 0;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-left td:first-child img {
+    width: 130px;
+}
+
+.cart-content-left td:nth-child(2) {
+    max-width: 130px;
+}
+
+.cart-content-right {
+    flex: 1;
+    padding-left: 12px;
+    border-left: 2px solid #dddddd;
+}
+
+.cart-content-right table {
+    width: 100%;
+}
+
+.cart-content-right table th {
+    padding-bottom: 30px;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-right table td {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    color: #333;
+    padding: 6px 0;
+}
+
+.cart-content-right tr:nth-child(4) td {
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-right tr td:last-child {
+    text-align: right;
+}
+
+.cart-content-right-text {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cart-content-right-text p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    color: #333;
+}
+
+.cart-content-right-botton {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-in {
+    position: relative;
+    right: 35px;
+}
+
+.cart-content-right-botton input {
+    padding: 0 7px 0 7px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.cart-content-right-botton input:first-child {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.cart-content-right-botton input:first-child:hover {
+    background-color: #ddd;
+}
+
+.cart-content-right-botton input:last-child {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border: 1px solid black;
+}
+
+.cart-content-right-botton input:last-child:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.cart-content-right-dangnhap {
+    margin-top: 20px;
+}
+
+.cart-content-right-dangnhap p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    color: #333;
+    padding: 0 0 0 0;
+}
+
+.messen-empty {
+    padding: 20px 0 0;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
